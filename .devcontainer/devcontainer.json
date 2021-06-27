@@ -1,0 +1,21 @@
+{
+    "name": "tensorflow vscode configuration",
+    "dockerComposeFile": [
+        "../docker-compose.yml",
+        "./docker-compose.yml"
+    ],
+    "service": "tensorflow",
+    "workspaceFolder": "/code",
+    "extensions": [
+        "ms-python.python",
+        "wesbos.them-cobalt2",
+        "ms-vscode.cpptools"
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "workbench.colorTheme": "Cobalt2",
+        "python.formatting.provider": "black",
+        "python.linting.enabled": true,
+        "python.pythonPath": "usr/local/bin/python"
+    }
+}
